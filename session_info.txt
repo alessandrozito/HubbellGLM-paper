@@ -1,0 +1,72 @@
+R version 4.3.1 (2023-06-16)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Ubuntu 20.04.6 LTS
+
+Matrix products: default
+BLAS:   /usr/lib/x86_64-linux-gnu/openblas-pthread/libblas.so.3 
+LAPACK: /usr/lib/x86_64-linux-gnu/openblas-pthread/liblapack.so.3;  LAPACK version 3.9.0
+
+locale:
+ [1] LC_CTYPE=en_US.UTF-8       LC_NUMERIC=C              
+ [3] LC_TIME=en_US.UTF-8        LC_COLLATE=en_US.UTF-8    
+ [5] LC_MONETARY=en_US.UTF-8    LC_MESSAGES=en_US.UTF-8   
+ [7] LC_PAPER=en_US.UTF-8       LC_NAME=C                 
+ [9] LC_ADDRESS=C               LC_TELEPHONE=C            
+[11] LC_MEASUREMENT=en_US.UTF-8 LC_IDENTIFICATION=C       
+
+time zone: Europe/Berlin
+tzcode source: system (glibc)
+
+attached base packages:
+[1] parallel  splines   stats     graphics  grDevices utils     datasets 
+[8] methods   base     
+
+other attached packages:
+ [1] HubbellGLM_1.0.0        caret_6.0-94            doParallel_1.0.17      
+ [4] iterators_1.0.14        foreach_1.5.2           slider_0.3.2           
+ [7] conleyreg_0.1.8         stargazer_5.2.3         lmerTest_3.1-3         
+[10] lme4_1.1-35.5           Matrix_1.6-0            multcomp_1.4-29        
+[13] TH.data_1.1-5           survival_3.5-5          mvtnorm_1.2-5          
+[16] lmtest_0.9-40           zoo_1.8-12              BNPvegan_0.1.0         
+[19] vegan_2.6-6.1           lattice_0.21-8          permute_0.9-7          
+[22] kgc_1.0.0.2             plyr_1.8.9              shinythemes_1.2.0      
+[25] shiny_1.7.4             spatialsample_0.6.1     spdep_1.3-13           
+[28] spData_2.3.4            geosphere_1.5-20        rnaturalearthdata_1.0.0
+[31] rnaturalearth_1.0.1     sf_1.0-21               ggsignif_0.6.4         
+[34] RColorBrewer_1.1-3      scales_1.4.0            patchwork_1.3.2        
+[37] ggpubr_0.6.0            MASS_7.3-60             lubridate_1.9.3        
+[40] forcats_1.0.0           stringr_1.5.1           dplyr_1.1.4            
+[43] purrr_1.0.2             readr_2.1.5             tidyr_1.3.1            
+[46] tibble_3.2.1            ggplot2_4.0.1           tidyverse_2.0.0        
+
+loaded via a namespace (and not attached):
+ [1] jsonlite_1.8.4       wk_0.9.2             magrittr_2.0.3      
+ [4] farver_2.1.2         nloptr_2.1.1         vctrs_0.6.5         
+ [7] minqa_1.2.7          terra_1.8-29         rstatix_0.7.2       
+[10] htmltools_0.5.8.1    broom_1.0.6          s2_1.1.7            
+[13] pROC_1.18.5          parallelly_1.38.0    KernSmooth_2.23-22  
+[16] sandwich_3.1-1       mime_0.12            lifecycle_1.0.4     
+[19] pkgconfig_2.0.3      R6_2.5.1             fastmap_1.2.0       
+[22] rbibutils_2.3        future_1.34.0        digest_0.6.36       
+[25] numDeriv_2016.8-1.1  furrr_0.3.1          warp_0.2.1          
+[28] fansi_1.0.6          timechange_0.3.0     httr_1.4.7          
+[31] abind_1.4-8          mgcv_1.9-0           compiler_4.3.1      
+[34] proxy_0.4-27         withr_3.0.1          S7_0.2.1            
+[37] backports_1.5.0      carData_3.0-5        DBI_1.2.3           
+[40] lava_1.8.0           classInt_0.4-10      ModelMetrics_1.2.2.2
+[43] tools_4.3.1          units_0.8-5          httpuv_1.6.8        
+[46] future.apply_1.11.2  nnet_7.3-19          glue_1.7.0          
+[49] nlme_3.1-162         promises_1.2.0.1     grid_4.3.1          
+[52] reshape2_1.4.4       cluster_2.1.4        generics_0.1.3      
+[55] recipes_1.1.0        gtable_0.3.6         tzdb_0.4.0          
+[58] class_7.3-22         data.table_1.15.4    hms_1.1.3           
+[61] rsample_1.3.2        sp_2.1-4             car_3.1-2           
+[64] utf8_1.2.4           pillar_1.9.0         later_1.3.0         
+[67] deldir_2.0-4         tidyselect_1.2.1     stats4_4.3.1        
+[70] hardhat_1.4.0        timeDate_4032.109    stringi_1.8.4       
+[73] boot_1.3-28          codetools_0.2-19     cli_3.6.3           
+[76] rpart_4.1.19         xtable_1.8-4         Rdpack_2.6.3        
+[79] dichromat_2.0-0.1    Rcpp_1.0.14          globals_0.16.3      
+[82] ellipsis_0.3.2       gower_1.0.1          listenv_0.9.1       
+[85] ipred_0.9-15         prodlim_2024.06.25   e1071_1.7-14        
+[88] rlang_1.1.4         

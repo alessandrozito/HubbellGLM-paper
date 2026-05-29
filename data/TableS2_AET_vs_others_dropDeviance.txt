@@ -1,0 +1,99 @@
+Baseline_Spec	Variable	Relationship	Dev_Drop	Pct_Dev_Reduction	Total_Pseudo_R2	Added_Pseudo_R2	P_Value
+Spec 1	aet	Linear	43604.54	29.6878	0.2969	0.2969	2.5079999999999998e-39
+Spec 1	aet	Spline (df=3)	45065.36	30.6823	0.3068	0.3068	1.3749999999999998e-47
+Spec 1	pet	Linear	12758.89	8.6868	0.0869	0.0869	2.782e-8
+Spec 1	pet	Spline (df=3)	32839.93	22.3588	0.2236	0.2236	5.618e-27
+Spec 1	vpd_year_avg	Linear	8.17	0.0056	1e-4	1e-4	0.876
+Spec 1	vpd_year_avg	Spline (df=3)	31310.21	21.3173	0.2132	0.2132	2.6919999999999996e-23
+Spec 1	NDVI_year_max	Linear	11890.25	8.0954	0.081	0.081	5.829e-10
+Spec 1	NDVI_year_max	Spline (df=3)	20592.77	14.0204	0.1402	0.1402	3.727e-15
+Spec 1	temperature_2m_year_avg	Linear	26899.32	18.3142	0.1831	0.1831	4.524e-17
+Spec 1	temperature_2m_year_avg	Spline (df=3)	28334.07	19.291	0.1929	0.1929	3.154e-17
+Spec 1	total_precipitation_sum_year_avg	Linear	38445.89	26.1755	0.2618	0.2618	7.722e-35
+Spec 1	total_precipitation_sum_year_avg	Spline (df=3)	38696.86	26.3464	0.2635	0.2635	6.275e-33
+Spec 1	relative_humidity_year_avg	Linear	19195.71	13.0692	0.1307	0.1307	3.266e-13
+Spec 1	relative_humidity_year_avg	Spline (df=3)	31721.18	21.5971	0.216	0.216	6.485e-44
+Spec 2	aet	Linear	16290.53	14.345	0.3377	0.1109	9.453e-19
+Spec 2	aet	Spline (df=3)	17352.74	15.2803	0.345	0.1181	4.634e-23
+Spec 2	pet	Linear	1497.24	1.3184	0.237	0.0102	0.03342
+Spec 2	pet	Spline (df=3)	16952.19	14.9276	0.3422	0.1154	5.264e-17
+Spec 2	vpd_year_avg	Linear	4659.97	4.1034	0.2585	0.0317	1.13e-6
+Spec 2	vpd_year_avg	Spline (df=3)	23246.94	20.4706	0.3851	0.1583	2.455e-31
+Spec 2	NDVI_year_max	Linear	3904.31	3.438	0.2534	0.0266	1.334e-5
+Spec 2	NDVI_year_max	Spline (df=3)	7819.88	6.886	0.2801	0.0532	9.925e-7
+Spec 2	temperature_2m_year_avg	Linear	930.51	0.8194	0.2332	0.0063	0.1876
+Spec 2	temperature_2m_year_avg	Spline (df=3)	12279.24	10.8128	0.3104	0.0836	1.091e-10
+Spec 2	total_precipitation_sum_year_avg	Linear	14187.23	12.4929	0.3234	0.0966	3.935e-15
+Spec 2	total_precipitation_sum_year_avg	Spline (df=3)	15741.45	13.8615	0.334	0.1072	2.379e-15
+Spec 2	relative_humidity_year_avg	Linear	6990.15	6.1553	0.2744	0.0476	1.943e-8
+Spec 2	relative_humidity_year_avg	Spline (df=3)	11809.36	10.399	0.3072	0.0804	2.445e-14
+Spec 3	aet	Linear	17730.28	16.423	0.3857	0.1207	2.641e-21
+Spec 3	aet	Spline (df=3)	18654.1	17.2787	0.392	0.127	8.090000000000001e-26
+Spec 3	pet	Linear	621.62	0.5758	0.2692	0.0042	0.1682
+Spec 3	pet	Spline (df=3)	16510.89	15.2935	0.3774	0.1124	4.063e-15
+Spec 3	vpd_year_avg	Linear	2996.89	2.7759	0.2854	0.0204	6.357e-5
+Spec 3	vpd_year_avg	Spline (df=3)	22687.25	21.0145	0.4194	0.1545	1.231e-29
+Spec 3	NDVI_year_max	Linear	3568.92	3.3058	0.2893	0.0243	2.628e-5
+Spec 3	NDVI_year_max	Spline (df=3)	7920.55	7.3365	0.3189	0.053900000000000003	7.734e-7
+Spec 3	temperature_2m_year_avg	Linear	1992.56	1.8456	0.2785	0.0136	0.04806
+Spec 3	temperature_2m_year_avg	Spline (df=3)	12558.15	11.6322	0.3505	0.0855	1.391e-10
+Spec 3	total_precipitation_sum_year_avg	Linear	12728.06	11.7896	0.3516	0.0867	1.081e-13
+Spec 3	total_precipitation_sum_year_avg	Spline (df=3)	14103.94	13.064	0.361	0.096	1.731e-13
+Spec 3	relative_humidity_year_avg	Linear	5662.2	5.2447	0.3035	0.0386	5.801e-7
+Spec 3	relative_humidity_year_avg	Spline (df=3)	9164.46	8.4887	0.3274	0.0624	1.846e-10
+Spec 4	aet	Linear	6550.16	8.0118	0.488	0.0446	7.963e-21
+Spec 4	aet	Spline (df=3)	6675.45	8.165	0.4888	0.0454	8.589e-20
+Spec 4	pet	Linear	3840.68	4.6977	0.4695	0.0261	2.564e-12
+Spec 4	pet	Spline (df=3)	6847.79	8.3758	0.49	0.0466	1.801e-21
+Spec 4	vpd_year_avg	Linear	4589.3	5.6134	0.4746	0.0312	5.878e-13
+Spec 4	vpd_year_avg	Spline (df=3)	11512.63	14.0816	0.5217	0.0784	1.4059999999999998e-42
+Spec 4	NDVI_year_max	Linear	3804.51	4.6535	0.4693	0.0259	2.256e-9
+Spec 4	NDVI_year_max	Spline (df=3)	5258.52	6.4319	0.4792	0.0358	3.784e-10
+Spec 4	temperature_2m_year_avg	Linear	2606.84	3.1885	0.4611	0.0177	1.293e-5
+Spec 4	temperature_2m_year_avg	Spline (df=3)	10717.02	13.1084	0.5163	0.073	1.4379999999999998e-22
+Spec 4	total_precipitation_sum_year_avg	Linear	2175.9	2.6614	0.4582	0.0148	9.388e-5
+Spec 4	total_precipitation_sum_year_avg	Spline (df=3)	2525.78	3.0894	0.4606	0.0172	3.024e-5
+Spec 4	relative_humidity_year_avg	Linear	2716.64	3.3228	0.4619	0.0185	2.381e-7
+Spec 4	relative_humidity_year_avg	Spline (df=3)	5827.99	7.1285	0.483	0.0397	1.4e-17
+Spec 5	aet	Linear	5059.98	7.1888	0.5552	0.0345	2.093e-14
+Spec 5	aet	Spline (df=3)	5191.05	7.375	0.5561	0.0353	2.003e-13
+Spec 5	pet	Linear	1458.39	2.0719	0.5307	0.0099	1.173e-5
+Spec 5	pet	Spline (df=3)	4560.35	6.4789	0.5518	0.031	1.372e-17
+Spec 5	vpd_year_avg	Linear	4056.73	5.7634	0.5484	0.0276	4.149e-14
+Spec 5	vpd_year_avg	Spline (df=3)	6890.13	9.7889	0.5677	0.0469	9.6e-24
+Spec 5	NDVI_year_max	Linear	1750.03	2.4863	0.5327	0.0119	1.74e-6
+Spec 5	NDVI_year_max	Spline (df=3)	2985.71	4.2418	0.5411	0.0203	1.614e-7
+Spec 5	temperature_2m_year_avg	Linear	1098.6	1.5608	0.5283	0.0075	0.001086
+Spec 5	temperature_2m_year_avg	Spline (df=3)	3912.97	5.5592	0.5474	0.0266	2.28e-13
+Spec 5	total_precipitation_sum_year_avg	Linear	1815.25	2.5789	0.5331	0.0124	3.891e-6
+Spec 5	total_precipitation_sum_year_avg	Spline (df=3)	2269.31	3.224	0.5362	0.0155	2.086e-6
+Spec 5	relative_humidity_year_avg	Linear	2205.99	3.1341	0.5358	0.015	2.097e-6
+Spec 5	relative_humidity_year_avg	Spline (df=3)	5304.68	7.5364	0.5569	0.0361	1.2690000000000001e-20
+Spec 6	aet	Linear	4727.13	7.3469	0.5941	0.0322	1.321e-14
+Spec 6	aet	Spline (df=3)	5319.89	8.2682	0.5982	0.0362	1.588e-18
+Spec 6	pet	Linear	136.86	0.2127	0.5629	9e-4	0.1205
+Spec 6	pet	Spline (df=3)	1118.44	1.7383	0.5695	0.0076	2.633e-5
+Spec 6	vpd_year_avg	Linear	2677.78	4.1618	0.5802	0.0182	2.58e-9
+Spec 6	vpd_year_avg	Spline (df=3)	3386.31	5.263	0.585	0.0231	1.396e-10
+Spec 6	NDVI_year_max	Linear	418.39	0.6503	0.5648	0.0028	0.01109
+Spec 6	NDVI_year_max	Spline (df=3)	2692.09	4.184	0.5803	0.0183	2.491e-7
+Spec 6	temperature_2m_year_avg	Linear	588.38	0.9145	0.5659	0.004	0.006636
+Spec 6	temperature_2m_year_avg	Spline (df=3)	1719.82	2.6729	0.5736	0.0117	5.193e-6
+Spec 6	total_precipitation_sum_year_avg	Linear	666.16	1.0353	0.5665	0.0045	0.002742
+Spec 6	total_precipitation_sum_year_avg	Spline (df=3)	684.96	1.0646	0.5666	0.0047	0.01347
+Spec 6	relative_humidity_year_avg	Linear	2076.51	3.2273	0.5761	0.0141	9.747e-7
+Spec 6	relative_humidity_year_avg	Spline (df=3)	2730.94	4.2444	0.5805	0.0186	3.487e-8
+Spec 7	aet	Linear	4747.6	7.4543	0.5987	0.0323	5.885e-15
+Spec 7	aet	Spline (df=3)	5342.17	8.3879	0.6028	0.0364	1.235e-18
+Spec 7	pet	Linear	143.42	0.2252	0.5674	0.001	0.1076
+Spec 7	pet	Spline (df=3)	1091.68	1.7141	0.5738	0.0074	1.411e-5
+Spec 7	vpd_year_avg	Linear	2823.37	4.433	0.5856	0.0192	4.71e-10
+Spec 7	vpd_year_avg	Spline (df=3)	3516.97	5.5221	0.5903	0.0239	3.137e-11
+Spec 7	NDVI_year_max	Linear	411.18	0.6456	0.5692	0.0028	0.01063
+Spec 7	NDVI_year_max	Spline (df=3)	2739.27	4.301	0.585	0.0187	1.75e-7
+Spec 7	temperature_2m_year_avg	Linear	659.73	1.0359	0.5709	0.0045	0.003734
+Spec 7	temperature_2m_year_avg	Spline (df=3)	1854.69	2.9121	0.579	0.0126	3.326e-6
+Spec 7	total_precipitation_sum_year_avg	Linear	684.54	1.0748	0.571	0.0047	0.002244
+Spec 7	total_precipitation_sum_year_avg	Spline (df=3)	697.15	1.0946	0.5711	0.0047	0.01188
+Spec 7	relative_humidity_year_avg	Linear	2194.49	3.4456	0.5813	0.0149	3.096e-7
+Spec 7	relative_humidity_year_avg	Spline (df=3)	2817.3	4.4235	0.5856	0.0192	1.064e-8

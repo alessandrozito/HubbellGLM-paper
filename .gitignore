@@ -1,0 +1,11 @@
+.RData
+.Rhistory
+.Rproj.user/
+*.nc
+
+# Ignored folders
+figures/files_to_ignore/
+data/files_to_ignore/
+preprocessing/files_to_ignore/
+analysis/files_to_ignore/
+

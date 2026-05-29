@@ -7,7 +7,7 @@ Malaise Trap Program (GMTP) arthropod dataset to quantify how energy availabilit
 (actual evapotranspiration, AET) and 
 human pressure (Human Footprint Index, HFP) drive arthropod species richness across 
 global climatic zones. 
----
+
 
 ## Repository structure
 

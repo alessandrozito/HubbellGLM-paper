@@ -1,11 +1,33 @@
+# R session files
 .RData
 .Rhistory
 .Rproj.user/
+Rplots.pdf
+
+# Archived analyses, kept locally
+oldfiles/
+files_to_ignore/
+FILES_TO_IGNORE/
+
+# Data and intermediate outputs: large (23 GB), rebuilt by the pipeline.
+# Shared: the regression dataset, the Jaccard matrix and the 2024 prediction grid
+# (xz-compressed, read by readRDS as usual).
+data/*
+!data/GMTP_analysis_dataset.rds
+!data/JaccardSim_sparse.rds
+!data/FigS6_abundances.rds
+!data/rasters_by_year/
+data/rasters_by_year/*
+!data/rasters_by_year/Raster_2024_full.rds
+output/*
 *.nc
 
-# Ignored folders
-figures/files_to_ignore/
-data/files_to_ignore/
-preprocessing/files_to_ignore/
-analysis/files_to_ignore/
+# Side figures, not in the paper
+figures/extra/
 
+# Manuscript and draft art
+paper/
+
+# Local tooling
+.claude/
+.DS_Store

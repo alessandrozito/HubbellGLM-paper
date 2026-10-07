@@ -58,6 +58,7 @@ output/                 models and tables, generated
 | `analysis/09_cv_benchmark.R` | CV fits |
 | `analysis/10_cv_figure.R` | Figs S5, S9 |
 | `analysis/11_admissibility_curves.R` | Fig S6 |
+| `analysis/12_export_grid_predictions.R` | Fig 3 and S11 values on the grid |
 
 Figures 1 and S4 are assembled by hand from the panels above. Table S1 has no
 data. Tables are written to `output/models/`.
@@ -71,7 +72,22 @@ data. Tables are written to `output/models/`.
 | `GMTP_analysis_dataset.rds` | 15,711 collection events with covariates (15,176 up to 2024 are analysed) |
 | `JaccardSim_sparse.rds` | shared-BIN similarity between events |
 | `rasters_by_year/Raster_2024_full.rds` | global 0.1-degree grid for prediction |
+| `rasters_by_year/Raster_2024_predictions.rds` | predictions on the same grid (below) |
 | `FigS6_abundances.rds` | BIN counts for the two events in Fig S6 |
+
+### Grid predictions
+
+`Raster_2024_predictions.rds` holds the values mapped in Figs 3 and S11, one row per
+grid cell (join to `Raster_2024_full.rds` by `Longitude`, `Latitude`). All values are
+for 2024 at n = 2000 individuals, rounded to 4 significant digits.
+
+| Column | Content |
+|---|---|
+| `S_sigma`, `richness`, `alpha`, `Shannon`, `Simpson`, `Tsallis` | biodiversity indices (Fig S11; Tsallis with q = 0.5) |
+| `hfp0_*`, `hfp5_*`, `aet10_*` | richness under HFP = 0, HFP + 5, AET + 10% (Fig 3) |
+| `*_pct`, `*_pct_lo`, `*_pct_hi` | % change in richness, with 95% CI |
+| `*_abs` | change in number of BINs |
+| `mess_zone`, `masked` | environmental similarity to the sample; `masked` cells are grey in the maps |
 
 ## Data sources
 

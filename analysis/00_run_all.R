@@ -18,7 +18,8 @@ STEPS <- c(
   "08_cv_folds.R",              # CV partitions
   "09_cv_benchmark.R",          # CV fits (slow)
   "10_cv_figure.R",             # Figs S5, S9
-  "11_admissibility_curves.R"   # Fig S6
+  "11_admissibility_curves.R",  # Fig S6
+  "12_export_grid_predictions.R" # Fig 3 and S11 values on the grid
 )
 
 only <- Sys.getenv("ONLY", "")

@@ -19,6 +19,7 @@ data/*
 !data/rasters_by_year/
 data/rasters_by_year/*
 !data/rasters_by_year/Raster_2024_full.rds
+!data/rasters_by_year/Raster_2024_predictions.rds
 output/*
 *.nc
 
